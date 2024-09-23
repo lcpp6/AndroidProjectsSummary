@@ -29,6 +29,7 @@ todo:至于compose版本，我还没找到可用的...
 - [sl4a](https://github.com/damonkohler/sl4a) SL4A 将脚本语言引入 Android，允许您直接在 Android 设备上编辑和执行脚本和交互式解释器。SL4A 为 Android 引入了脚本语言，允许您直接在 Android 设备上编辑和执行脚本和交互式解释器。这些脚本可以访问成熟 Android 应用程序可用的许多 API，但界面却大大简化，让您可以轻松完成任务。
 - Android功能示例工程 [ProjectX](https://github.com/AlexMofer/ProjectX): Android平台的FTP服务器。\仿微信式，平滑输入面板，防止键盘的出现与消失导致特殊输入面板的顶起与塌陷。....
 - 小米便签社区开源版 [Notes](https://github.com/MiCode/Notes)
+- [Joplin](https://github.com/laurent22/joplin) - 专注于隐私的笔记应用程序，具有与 Windows、macOS、Linux、Android 和 iOS 同步功能。
 
 - 
 ## 1.3 辅助工具包（util）
@@ -47,8 +48,7 @@ todo:至于compose版本，我还没找到可用的...
 - [Shizuku-API](https://github.com/RikkaApps/Shizuku-API) Shizuku 和 Sui 的 API 和开发者指南。
 - [Shizuku](https://github.com/RikkaApps/Shizuku):普通应用程序直接使用具有 adb/root 权限的系统 API。
 - [Sui](https://github.com/RikkaApps/Sui) Android 上的现代超级用户界面实现。
-- 
-- 
+  
 -  root-[libsu](https://github.com/topjohnwu/libsu):针对使用 root 权限的应用程序的完整解决方案
 - compose-辅助工具库-[accompanist](https://github.com/google/accompanist): 官方开源的，目前很多都已经融合进compose一些内部库了，目前最常用的是它的权限处理部分。
 - 工具类-[android-common](https://github.com/litesuits/android-common)：比较老的工具类了，可以学习参考。其中包括bitmap处理，文件操作，加密存储器，shell命令，静默安装，计数器，均值器，吐司，日志，校验，提示，网络监测等基础功能，以及一些Base64、MD5、Hex、Byte、Number、Dialog、Filed、Class、Package、Telephone、Random等工具类。
@@ -59,7 +59,7 @@ todo:至于compose版本，我还没找到可用的...
 - 网络存储-[sshj](https://github.com/hierynomus/sshj) ：java 的 ssh、scp 和 sftp
 - 网络存储-[jcifs](https://github.com/codelibs/jcifs) ：CIFS 是一个开源客户端库，它 100% 用 Ja​​va 实现 CIFS/SMB 网络协议。从 2.x 版开始，该项目从jcifs-ng分叉，现有的 jcifs 代码合并为smb1。
 - [jcifs-ng](https://github.com/AgNO3/jcifs-ng): jCIFS 库的清理和改进版本.SMB2（2.02 协议级别）支持，部分 SMB3 支持
-- 
+
 - [commons-net](https://github.com/apache/commons-net)Apache Commons Net 库包含一组网络实用程序和协议实现。支持的协议包括 Echo、Finger、FTP、NNTP、NTP、POP3(S)、SMTP(S)、Telnet 和 Whois。
 - Samba docker 容器——————[samba](https://github.com/dperson/samba)——————自 1992 年以来，Samba 为所有使用 SMB/CIFS 协议的客户端（例如所有版本的 DOS 和 Windows、OS/2、Linux 等）提供安全、稳定、快速的文件和打印服务。
 
@@ -68,7 +68,7 @@ todo:至于compose版本，我还没找到可用的...
 - 压缩-[commons-compress](https://github.com/apache/commons-compress) Apache Commons Compress 定义了用于处理压缩和存档格式的 API。这些格式包括 bzip2、gzip、pack200、LZMA、XZ、Snappy、传统 Unix Compress、DEFLATE、DEFLATE64、LZ4、Brotli、Zstandard 以及 ar、cpio、jar、tar、zip、dump、7z、arj。
 - [commons-text](https://github.com/apache/commons-text)  Apache Commons Text 是一组实用函数和可重用组件，用于处理和操作在 Java 环境中使用的文本
 - [commons-io](https://github.com/apache/commons-io)  Apache Commons IO 库包含实用程序类、流实现、文件过滤器、文件比较器、字节序转换类等等。
-- 
+
 - [guava](https://github.com/google/guava) Guava：Google 的 Java 核心库。Guava 是 Google 的一组核心 Java 库，其中包括新的集合类型（例如多映射和多集）、不可变集合、图库以及并发、I/O、哈希、原语、字符串等实用程序！它在 Google 的大多数 Java 项目中得到广泛使用，并且也被许多其他公司广泛使用。
 - [jregex](https://github.com/eropple/jregex) jregex 库的 Mavenized 版本。正则表达式
 - [trilead-ssh2](https://github.com/jenkinsci/trilead-ssh2) Jenkins 中使用的修补 trilead-ssh2
@@ -87,9 +87,7 @@ todo:至于compose版本，我还没找到可用的...
 - 安卓动画库lottie [lottie-android](https://github.com/airbnb/lottie-android)
 - [android-gif-drawable](https://github.com/koral--/android-gif-drawable) Views 以及DrawableAndroid 中的动画 GIF。--- 通过 JNI 捆绑的 GIFLib 用于渲染帧。这种方式应该比WebView或Movie类更有效。
 - Android开源弹幕引擎·烈焰弹幕使 ～ [DanmakuFlameMaster](https://github.com/bilibili/DanmakuFlameMaster)
-- 
-
-- 
+  
 
 ## 1.4 compose组件
 - 下拉刷新-[UltraSwipeRefresh](https://github.com/jenly1314/UltraSwipeRefresh)：一个可带来极致体验的Compose刷新组件；支持下拉刷新和上拉加载，可完美替代官方的SwipeRefresh；并且支持的功能更多，可扩展性更强。
@@ -107,7 +105,6 @@ todo:至于compose版本，我还没找到可用的...
 -  compose桌面端的反编译集成-[ApkNurse](https://github.com/vsloong/ApkNurse)，一个集成了反编译工具的compose桌面端，可以简单参考一下。
 
 
-
 ## 1.6 插件化
 - 插件框架- [VirtualAPK](https://github.com/didi/VirtualAPK)：滴滴开源的插件化开发框架，很老了，停留在安卓9
 - (近期更新)[Android-Plugin-Framework](https://github.com/limpoxe/Android-Plugin-Framework)  Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件
@@ -116,7 +113,8 @@ todo:至于compose版本，我还没找到可用的...
 # 2、app逆向
 - [smali](https://github.com/JesusFreke/smali) smali/baksmali 是 dalvik（Android 的 Java VM 实现）使用的 dex 格式的汇编器/反汇编
 - [Apktool](https://github.com/iBotPeaches/Apktool)  Apktool 是一款用于对第三方、封闭、二进制 Android 应用进行逆向工程的工具。它可以将资源解码为接近原始形式，并在进行一些修改后重建它们；它可以逐步调试 smali 代码。由于具有类似项目的文件结构和一些重复任务（例如构建 apk 等）的自动化，它还可以更轻松地使用应用。
-- 
+
+- [Jadx](https://github.com/skylot/jadx): Java反编译器...
 - [ArscEditor](https://github.com/MrIkso/ArscEditor) 带有 GUI 的 resources.arsc 开源编辑器。没用过，不知道具体效果。单纯记录一下。
 - [Recaf](https://github.com/Col-E/Recaf)现代 Java 字节码编辑器。MIT协议。
 - [Threadtear](https://github.com/GraxCode/threadtear) 是一款多功能的 Java 反混淆工具。
@@ -154,11 +152,6 @@ smali/baksmali：将 dex 反汇编为 smali 文件并从 smali 文件组装 dex�
 - [DeveloperHelper](https://github.com/WrBug/DeveloperHelper) 📌易开发是一款帮助开发人员快速开发的工具，功能包括界面分析，页面信息，加固脱壳，支持Android9.0.目前软件尚未完成，更多功能完善中
 
 
-
-
-
-
-
 # 3、app保护
 - 虚假目录构建状态-[fakedirectory](https://github.com/x4e/fakedirectory): 欺骗 WinRAR、JD-GUI 和几乎所有 zip 文件阅读器。
 - 混淆-[fakedirectory](https://github.com/lcpp-nt/fakedirectory)：使用由 cts 和 bibl 设计的 MapleIR 框架的公共概念验证混淆器，据说是最有前途的混淆器
@@ -177,20 +170,13 @@ smali/baksmali：将 dex 反汇编为 smali 文件并从 smali 文件组装 dex�
 - zip对齐的纯Java工具 [zipalign-java](https://github.com/iyxan23/zipalign-java)
 - [Obfuscapk](https://github.com/ClaudiuGeorgiu/Obfuscapk)一种用于 Android 应用程序的自动混淆工具，采用黑盒方式工作，支持高级混淆功能，并具有可通过新技术轻松扩展的模块化架构.一个模块化 Python 工具，用于对 Android 应用进行混淆处理，无需源代码
 - [paranoid](https://github.com/MichaelRocks/paranoid)  Android 应用程序的字符串混淆器。
-- []() 
-- []() 
-- []() 
-- []() 
-- []() 
-- []() 
-- []() 
 
 
 # 4、Flutter
 - 树视图-[animated_tree_view](https://github.com/embraceitmobile/animated_tree_view),效果看起来不错，但是我已经不碰 Flutter 了，我希望 compose 取代 Flutter！：）
 - Flutter的终端模拟器-[xterm.dart](https://github.com/TerminalStudio/xterm.dart)
 - Flutter 状态管理框架 [getx](https://github.com/jonataslaw/getx)，我还是挺推荐的，虽然已经不打算做Flutter了...
-- 
+
 
 # 其他
 - 一个安卓UI总结库，比我总结的多得多了(虽然经典但大多都是view)：[awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
