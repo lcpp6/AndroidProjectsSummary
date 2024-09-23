@@ -68,10 +68,12 @@ todo:至于compose版本，我还没找到可用的...
 - 压缩-[commons-compress](https://github.com/apache/commons-compress) Apache Commons Compress 定义了用于处理压缩和存档格式的 API。这些格式包括 bzip2、gzip、pack200、LZMA、XZ、Snappy、传统 Unix Compress、DEFLATE、DEFLATE64、LZ4、Brotli、Zstandard 以及 ar、cpio、jar、tar、zip、dump、7z、arj。
 - [commons-text](https://github.com/apache/commons-text)  Apache Commons Text 是一组实用函数和可重用组件，用于处理和操作在 Java 环境中使用的文本
 - [commons-io](https://github.com/apache/commons-io)  Apache Commons IO 库包含实用程序类、流实现、文件过滤器、文件比较器、字节序转换类等等。
+- [java-diff-utils](https://github.com/java-diff-utils/java-diff-utils) Diff Utils 库是一个开源库，用于执行文本或某种数据之间的比较/差异操作：计算差异、应用补丁、生成统一差异或解析它们、生成差异输出以便于将来显示（如并排视图）等等。
 
 - [guava](https://github.com/google/guava) Guava：Google 的 Java 核心库。Guava 是 Google 的一组核心 Java 库，其中包括新的集合类型（例如多映射和多集）、不可变集合、图库以及并发、I/O、哈希、原语、字符串等实用程序！它在 Google 的大多数 Java 项目中得到广泛使用，并且也被许多其他公司广泛使用。
 - [jregex](https://github.com/eropple/jregex) jregex 库的 Mavenized 版本。正则表达式
 - [trilead-ssh2](https://github.com/jenkinsci/trilead-ssh2) Jenkins 中使用的修补 trilead-ssh2
+- [FFmpeg-Android](https://github.com/bravobit/FFmpeg-Android) FFMpeg/FFprobe 针对 Android 编译。在您的 Android 项目中轻松执行 FFmpeg 和 FFprobe 命令。
 
 - [zxing](https://github.com/zxing/zxing) 适用于 Java、Android 的 ZXing（“斑马线”）条形码扫描库.项目仅处于维护模式；条形码扫描仪不可用.它不适用于 Android 14，不会更新。请不要为其提交问题。
 - 扫码二维码-[ZXingLite](https://github.com/jenly1314/ZXingLite):ZXing的精简极速版，优化扫码和生成二维码/条形码，内置闪光灯等功能。扫描风格支持：微信的线条样式，支付宝的网格样式。几句代码轻松拥有扫码功能 ，ZXingLite让集成更简单。（扫码识别速度快如微信）
@@ -170,12 +172,28 @@ smali/baksmali：将 dex 反汇编为 smali 文件并从 smali 文件组装 dex�
 - zip对齐的纯Java工具 [zipalign-java](https://github.com/iyxan23/zipalign-java)
 - [Obfuscapk](https://github.com/ClaudiuGeorgiu/Obfuscapk)一种用于 Android 应用程序的自动混淆工具，采用黑盒方式工作，支持高级混淆功能，并具有可通过新技术轻松扩展的模块化架构.一个模块化 Python 工具，用于对 Android 应用进行混淆处理，无需源代码
 - [paranoid](https://github.com/MichaelRocks/paranoid)  Android 应用程序的字符串混淆器。
-
+- [BlackObfuscator](https://github.com/CodingGay/BlackObfuscator) Black Obfuscator 是一款针对Android APK DexFile的混淆器，它可以帮助开发人员通过控制流平坦化来保护源代码，并使分析实际的程序控制流变得困难。
+- [VMProtect-devirtualization](https://github.com/JonathanSalwan/VMProtect-devirtualization) 使用 VMProtect 软件保护。使用符号执行和 LLVM 自动反混淆纯函数。一种实验性的动态方法，用于对受VMProtect 3.x保护的纯函数进行去虚拟化
+- [nmmp](https://github.com/maoabc/nmmp) 基于dex-vm运行dalvik字节码从而对dex进行保护，增加反编译索引。项目分成两部分nmm-protect是纯java项目，对dex进行转换，把dex里数据转为c结构体，opcode随机化生成ndk项目，编译后生成后的apk。nmmvm是一个安卓项目，包含dex-vm实现及各种dalvik指令的测试等。
+- [dpt-shell](https://github.com/luoyesiqiu/dpt-shell) 一个android Dex保护壳的实现(将dex文件中的函数代码抽空，然后在程序运行时将函数代码填回的那么一个shell。)
+- [LSPatch](https://github.com/LSPosed/LSPatch) LSPatch：从 LSPosed 扩展而来的非 root Xposed 框架___LSPosed框架的无root实现，通过将dex等插入到目标APK中来集成Xposed API。
+- [native-obfuscator](https://github.com/radioegor146/native-obfuscator)用于 JNI 的 Java .class 到 .cpp 转换器
+- 
 
 # 4、Flutter
 - 树视图-[animated_tree_view](https://github.com/embraceitmobile/animated_tree_view),效果看起来不错，但是我已经不碰 Flutter 了，我希望 compose 取代 Flutter！：）
 - Flutter的终端模拟器-[xterm.dart](https://github.com/TerminalStudio/xterm.dart)
 - Flutter 状态管理框架 [getx](https://github.com/jonataslaw/getx)，我还是挺推荐的，虽然已经不打算做Flutter了...
+- Flutter 应用逆向...[reflutter](https://github.com/Impact-I/reFlutter)
+
+# 5 机器学习、AI相关
+- [course](https://github.com/huggingface/course) 创建Hugging Face 课程的内容。本课程将教您如何将 Transformers 应用于自然语言处理及其他领域的各种任务。在此过程中，您将学习如何使用Hugging Face生态系统 — 🤗 Transformers、🤗 Datasets、🤗 Tokenizers和🤗 Accelerate — 以及Hugging Face Hub。它完全免费且开源！
+- [tensorflow](https://github.com/tensorflow/tensorflow)适合每个人的开源机器学习框架.一个端到端的机器学习开源平台。它拥有一个全面、灵活的 工具、 库和 社区资源生态系统，让研究人员能够推动机器学习的最新发展，让开发者能够轻松构建和部署由机器学习驱动的应用程序。
+- [pytorch](https://github.com/pytorch/pytorch) 具有强大 GPU 加速的 Python 张量和动态神经网络.PyTorch 是一个 Python 包，提供两个高级功能：具有强大 GPU 加速的张量计算（如 NumPy）\基于磁带自动分级系统构建的深度神经网络
+- [ChatGLM3](https://github.com/THUDM/ChatGLM3) 开源双语对话语言模型--清华大学
+- [OpenChat](https://github.com/imoneoi/openchat) 是一个创新的开源语言模型库，通过C-RLFT进行微调- 一种受离线强化学习启发的策略。利用不完善的数据推进开源语言模型
+- [transformers](https://github.com/huggingface/transformers) 适用于 Pytorch、TensorFlow 和 JAX 的最先进的机器学习.Transformers 提供数千个预训练模型，用于执行文本、视觉和音频等不同模态的任务。
+- [Coursera-ML-AndrewNg-Notes](https://github.com/fengdu78/Coursera-ML-AndrewNg-Notes) 吴恩达老师的机器学习课程个人笔记 
 
 
 # 其他
@@ -195,6 +213,8 @@ Robolectric 支持为14 个不同版本的 Android运行单元测试，范围从
 
 - [simpleC](https://github.com/luoyesiqiu/simpleC) 安卓平台 C、C++ 编程工具
 - [XQCEditor](https://github.com/wangchen11/XQCEditor) 安卓平台 C、C++ 编程工具
+
+- 开源协议一览 [licenses](https://github.com/phodal/licenses)
 
 
 
