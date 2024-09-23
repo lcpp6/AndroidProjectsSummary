@@ -6,6 +6,7 @@
 - compose——[nowinandroid](https://github.com/android/nowinandroid): 官方积极维护、纯kotlin+compose，搭建好了基础功能。适合当学习资料或者项目启动模板（实测最新不稳定版本可能存在问题，issues已提但...）,建议使用稳定版
 - view——[android-multi-module-demo](https://github.com/JefferyBoy/android-multi-module-demo): android安卓模块化开发最佳实践demo,其实算是老项目了（View类），可以稍微参考学习，但我更推荐上面那个（如果你想学compose的话）。
 - 安卓官方媒体示例-[media-samples](https://github.com/android/media-samples)，如果尝试做媒体类安卓应用，可以参考一下...
+- 一个View组件，可以参考 [MaterialPopupMenu](https://github.com/zawadz88/MaterialPopupMenu)  显示按部分分组的 Material 弹出菜单等,特点是分组。
 
 
 ## 1.2 功能级别的项目
@@ -14,27 +15,80 @@
 - view终端模拟器——[NeoTerm](https://github.com/NeoTerrm/NeoTerm): 终端模拟器，也是GPL代码，里面部分代码也是使用上面的项目。可以参考学习。
 todo:至于compose版本，我还没找到可用的...
 - compose代码编辑器【已经不能用】[compose-code-editor](https://github.com/n34t0/compose-code-editor): 但是可以参考，其中一部分引用了 [androidx](https://github.com/androidx/androidx) 库的源码，很久很更新了（再加上compose库更新太快了），所以很多函数都废弃了，导致可能代码都跑不了了。但是如果你要开发一款compose代码编辑器，可以参考学习。
+- view的代码编辑器-[sora-editor](https://github.com/Rosemoe/sora-editor) 一个多功能的 Android 代码编辑器库。（又名 CodeEditor）
 - view的代码编辑器-[EditorKit](https://github.com/massivemadness/EditorKit)，可以参考（如果你使用View的话），它用在这个项目里面 [Squircle-CE](https://github.com/massivemadness/Squircle-CE)——————一个比较成熟的代码编辑器、文件浏览..
 - 判断app是什么技术开发的-[apkanalyser](https://github.com/sugood/apkanalyser)通过对apk包的解析，查看使用的开发框架，如：Flutter, ReactNative, Weex
 - 身份验证器-[andOTP](https://github.com/andOTP/andOTP)[未维护] Android 的开源双因素身份验证.基于时间的一次性密码 (TOTP) 和基于 HMAC 的一次性密码 (HOTP)。
 - view应用————身份验证器OTP[freeotp-android](https://github.com/freeotp/freeotp-android)————FreeOTP是一款双因素身份验证应用程序，适用于使用一次性密码协议的系统。只需扫描二维码即可轻松添加令牌。HOTP（基于 HMAC 的一次性密码算法）、TOTP（基于时间的一次性密码算法）。你也可以看它的改进版本：[FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus)
 - View-安卓app开发IDE手机端[AndroidIDE](https://github.com/AndroidIDEOfficial/AndroidIDE) 是一个用于开发全功能 Android 应用程序的 Android IDE。
-- 
+- [gkd](https://github.com/gkd-kit/gkd) 基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用
+- View——[MaterialFiles](https://github.com/zhanghai/MaterialFiles)：一款开源的文件管理器，虽然我不再碰View了，但是有些东西还是值得参考的...尤其是开发文件管理器...
+- 文件管理器-View-[AmazeFileManager](https://github.com/TeamAmaze/AmazeFileManager)Android 的 Material Design 文件管理器
+- [Elf-Editor](https://github.com/ha1vk/Elf-Editor) 简单的十六进制编辑器，算是老项目了...一个安卓/java算法用于编辑elf、so文件的符号名和字符串常量池，目前修改，字符串和符号名长度必须和原来一样，本算法修复hash段。现在将其开放，希望各界人士能继续完善，破除字符串修改的长度限制，这个比较麻烦。本工具对于修改二进制文件非常有用
+- [storage-samples](https://github.com/android/storage-samples/tree/main) 安卓官方的存储示例程序：了解 Android 中的存储（在存储中保存文件、键值数据、共享简单数据、共享文件、打印文件、内容提供商、存储访问框架 [SAF] 等），对于开发文件管理器会有启发作用...
+- [sl4a](https://github.com/damonkohler/sl4a) SL4A 将脚本语言引入 Android，允许您直接在 Android 设备上编辑和执行脚本和交互式解释器。SL4A 为 Android 引入了脚本语言，允许您直接在 Android 设备上编辑和执行脚本和交互式解释器。这些脚本可以访问成熟 Android 应用程序可用的许多 API，但界面却大大简化，让您可以轻松完成任务。
+- Android功能示例工程 [ProjectX](https://github.com/AlexMofer/ProjectX): Android平台的FTP服务器。\仿微信式，平滑输入面板，防止键盘的出现与消失导致特殊输入面板的顶起与塌陷。....
+- 小米便签社区开源版 [Notes](https://github.com/MiCode/Notes)
 
 - 
 ## 1.3 辅助工具包（util）
+- [okhttp](https://github.com/square/okhttp) 针对 JVM、Android 和 GraalVM 的细致 HTTP 客户端。
 - 网络请求- [EasyHttp](https://github.com/getActivity/EasyHttp): Android 网络请求框架，简单易用，so easy
+- [okhttp-OkGo](https://github.com/jeasonlzy/okhttp-OkGo)  OkGo - 3.0 震撼来袭，该库是基于 Http 协议，封装了 OkHttp 的网络请求框架，比 Retrofit 更简单易用，支持 RxJava，RxJava2，支持自定义缓存，支持批量断点下载管理和批量上传管理功能
+- [okhttputils](https://github.com/hongyangAndroid/okhttputils) [停止维护]okhttp的辅助类
+- [jmdns](https://github.com/jmdns/jmdns) jmDNS 库的官方网站域名解析,这是 Java 中多播 DNS 的实现。它支持服务发现和服务注册。它与 Apple 的 Bonjour 完全互操作。
+
+
+- 
 - 权限请求-[XXPermissions](https://github.com/getActivity/XXPermissions):Android 权限请求框架，已适配 Android 14
+- [androidDataWithoutRootAPI33](https://github.com/folderv/androidDataWithoutRootAPI33) 无需 root 权限即可在 Android 13 上读写 Android/数据文件
+- [AndroidDirectoryAccess](https://github.com/Aghajari/AndroidDirectoryAccess) 无需 root 即可获取 Android/{data,obb} 目录访问权限的简单项目，适用于 Android >= 11。（支持所有版本的 Android）
+- 
+- [Shizuku-API](https://github.com/RikkaApps/Shizuku-API) Shizuku 和 Sui 的 API 和开发者指南。
+- [Shizuku](https://github.com/RikkaApps/Shizuku):普通应用程序直接使用具有 adb/root 权限的系统 API。
+- [Sui](https://github.com/RikkaApps/Sui) Android 上的现代超级用户界面实现。
+- 
+- 
 -  root-[libsu](https://github.com/topjohnwu/libsu):针对使用 root 权限的应用程序的完整解决方案
 - compose-辅助工具库-[accompanist](https://github.com/google/accompanist): 官方开源的，目前很多都已经融合进compose一些内部库了，目前最常用的是它的权限处理部分。
 - 工具类-[android-common](https://github.com/litesuits/android-common)：比较老的工具类了，可以学习参考。其中包括bitmap处理，文件操作，加密存储器，shell命令，静默安装，计数器，均值器，吐司，日志，校验，提示，网络监测等基础功能，以及一些Base64、MD5、Hex、Byte、Number、Dialog、Filed、Class、Package、Telephone、Random等工具类。
+- 工具类-[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode),非常全面，近期也有在更新，可以学习参考...
 - 文件系统级别的库-[okio](https://github.com/square/okio),适用于 Android、Java 和 Kotlin Multiplatform 的现代 I/O 库。没深入使用过，浅浅使用了一下，感觉还行。优势是kotlin、并且低版本使用 Java.io,高版本使用Java.nio。。。
 - 网络存储-[dav4jvm](https://github.com/bitfireAT/dav4jvm):WebDAV/CalDAV/CardDAV 库————Java 虚拟机 (Java/Kotlin) 的 WebDAV（包括 CalDAV、CardDAV）库
+- [sardine-android](https://github.com/thegrizzlylabs/sardine-android) 适用于 Android 的 WebDAV 库
 - 网络存储-[sshj](https://github.com/hierynomus/sshj) ：java 的 ssh、scp 和 sftp
+- 网络存储-[jcifs](https://github.com/codelibs/jcifs) ：CIFS 是一个开源客户端库，它 100% 用 Ja​​va 实现 CIFS/SMB 网络协议。从 2.x 版开始，该项目从jcifs-ng分叉，现有的 jcifs 代码合并为smb1。
+- [jcifs-ng](https://github.com/AgNO3/jcifs-ng): jCIFS 库的清理和改进版本.SMB2（2.02 协议级别）支持，部分 SMB3 支持
 - 
+- [commons-net](https://github.com/apache/commons-net)Apache Commons Net 库包含一组网络实用程序和协议实现。支持的协议包括 Echo、Finger、FTP、NNTP、NTP、POP3(S)、SMTP(S)、Telnet 和 Whois。
+- Samba docker 容器——————[samba](https://github.com/dperson/samba)——————自 1992 年以来，Samba 为所有使用 SMB/CIFS 协议的客户端（例如所有版本的 DOS 和 Windows、OS/2、Linux 等）提供安全、稳定、快速的文件和打印服务。
+
+- 压缩 - [7-Zip-JBinding-4Android](https://github.com/omicronapps/7-Zip-JBinding-4Android) 7z 归档引擎的 Android Java 包装器----本机（JNI）跨平台库，用于提取（受密码保护，多部分）7z Arj BZip2 Cab Chm Cpio Deb GZip HFS Iso Lzh Lzma Nsis Rar Rpm Split Tar Udf Wim Xar Z Zip 档案并在 Android 上从 Java 创建 7z、Zip、Tar、GZip 和 BZip2。
+-  压缩-[zip4j](https://github.com/srikanth-lingala/zip4j) Zip4j - 用于 zip 文件/流的 Java 库。唯一支持 zip 加密的 Java 库。
+- 压缩-[commons-compress](https://github.com/apache/commons-compress) Apache Commons Compress 定义了用于处理压缩和存档格式的 API。这些格式包括 bzip2、gzip、pack200、LZMA、XZ、Snappy、传统 Unix Compress、DEFLATE、DEFLATE64、LZ4、Brotli、Zstandard 以及 ar、cpio、jar、tar、zip、dump、7z、arj。
+- [commons-text](https://github.com/apache/commons-text)  Apache Commons Text 是一组实用函数和可重用组件，用于处理和操作在 Java 环境中使用的文本
+- [commons-io](https://github.com/apache/commons-io)  Apache Commons IO 库包含实用程序类、流实现、文件过滤器、文件比较器、字节序转换类等等。
+- 
+- [guava](https://github.com/google/guava) Guava：Google 的 Java 核心库。Guava 是 Google 的一组核心 Java 库，其中包括新的集合类型（例如多映射和多集）、不可变集合、图库以及并发、I/O、哈希、原语、字符串等实用程序！它在 Google 的大多数 Java 项目中得到广泛使用，并且也被许多其他公司广泛使用。
+- [jregex](https://github.com/eropple/jregex) jregex 库的 Mavenized 版本。正则表达式
+- [trilead-ssh2](https://github.com/jenkinsci/trilead-ssh2) Jenkins 中使用的修补 trilead-ssh2
+
+- [zxing](https://github.com/zxing/zxing) 适用于 Java、Android 的 ZXing（“斑马线”）条形码扫描库.项目仅处于维护模式；条形码扫描仪不可用.它不适用于 Android 14，不会更新。请不要为其提交问题。
 - 扫码二维码-[ZXingLite](https://github.com/jenly1314/ZXingLite):ZXing的精简极速版，优化扫码和生成二维码/条形码，内置闪光灯等功能。扫描风格支持：微信的线条样式，支付宝的网格样式。几句代码轻松拥有扫码功能 ，ZXingLite让集成更简单。（扫码识别速度快如微信）
 - AndroidSVG-[androidsvg](https://github.com/BigBadaboom/androidsvg)适用于 Android 的 SVG 渲染库——————没用过，不清楚
 - [material-color-utilities](https://github.com/material-foundation/material-color-utilities)Material You 的颜色库，你可以在里面找到一些常用的颜色工具，进行颜色方面的工具开发....
+
+- [Fresco](https://github.com/facebook/fresco) 是一个用于在 Android 应用程序中显示图像的强大的系统。Fresco 负责图片的加载和显示，因此您无需自己处理。它会从网络、本地存储或本地资源加载图片，并显示占位符，直到图片到达。它有两级缓存；一个在内存中，另一个在内部存储中。
+- [coil](https://github.com/coil-kt/coil)适用于 Android 和 Compose Multiplatform 的图像加载(也有视频扩展库，但好像没有音频...)。
+- [glide](https://github.com/bumptech/glide) 专注于平滑滚动的 Android 图像加载和缓存库。快速高效的 Android 开源媒体管理和图像加载框架，它将媒体解码、内存和磁盘缓存以及资源池整合到一个简单易用的界面中
+- [3DObjectViewer](https://github.com/lrusso/3DObjectViewer) 安卓 3D 对象查看器 ——————STL、OBJ 和 3DS 格式的 3D 对象查看器，具有重量、尺寸、体积、成本和打印时间功能
+- [TinyPinyin](https://github.com/promeG/TinyPinyin) 适用于Java和Android的快速、低内存占用的汉字转拼音库。
+- [retrofit](https://github.com/square/retrofit) 适用于 Android 和 JVM 的类型安全 HTTP 客户端.
+- 安卓动画库lottie [lottie-android](https://github.com/airbnb/lottie-android)
+- [android-gif-drawable](https://github.com/koral--/android-gif-drawable) Views 以及DrawableAndroid 中的动画 GIF。--- 通过 JNI 捆绑的 GIFLib 用于渲染帧。这种方式应该比WebView或Movie类更有效。
+- Android开源弹幕引擎·烈焰弹幕使 ～ [DanmakuFlameMaster](https://github.com/bilibili/DanmakuFlameMaster)
+- 
+
 - 
 
 ## 1.4 compose组件
@@ -44,7 +98,8 @@ todo:至于compose版本，我还没找到可用的...
 -  一些常用组件 [ComposeViews](https://github.com/ltttttttttttt/ComposeViews)：在 Android、Web、桌面和 iOS 中编写多平台视图：寻呼机、横幅、指示器、刷新布局、流程布局、菜单浮动操作按钮、下拉刷新、链式滚动组件、可滚动应用栏（嵌套滚动视图）、日期选择器（时间选择器日期选择器）、滑动关闭、图像查看器、缩放布局、星形栏等
 - 树形组件-[bonsai](https://github.com/adrielcafe/bonsai)：包含电池的 Jetpack Compose 树形视图
 - 拖动排序-[Reorderable](https://github.com/Calvin-LL/Reorderable)： 通过拖放操作重新排序 Jetpack Compose 和 Compose Multiplatform 中列表和网格中的项目。体验过，但是当时我试了到我的手机上有一些bug就没再用，有时间可以研究一下
-- 
+- [compose-markdown](https://github.com/jeziellago/compose-markdown)适用于 Android Jetpack Compose 的 Markdown 文本 📋。
+- compose官方示例集 [compose-samples](https://github.com/android/compose-samples)
 
 - 
 ## 1.5 compose多平台（跨端）
@@ -55,9 +110,53 @@ todo:至于compose版本，我还没找到可用的...
 
 ## 1.6 插件化
 - 插件框架- [VirtualAPK](https://github.com/didi/VirtualAPK)：滴滴开源的插件化开发框架，很老了，停留在安卓9
-- 
+- (近期更新)[Android-Plugin-Framework](https://github.com/limpoxe/Android-Plugin-Framework)  Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件
+- (近期更新)[RePlugin](https://github.com/Qihoo360/RePlugin) 一个灵活，稳定，易于使用的Android插件框架,360开源的一个插件开发框架
 
 # 2、app逆向
+- [smali](https://github.com/JesusFreke/smali) smali/baksmali 是 dalvik（Android 的 Java VM 实现）使用的 dex 格式的汇编器/反汇编
+- [Apktool](https://github.com/iBotPeaches/Apktool)  Apktool 是一款用于对第三方、封闭、二进制 Android 应用进行逆向工程的工具。它可以将资源解码为接近原始形式，并在进行一些修改后重建它们；它可以逐步调试 smali 代码。由于具有类似项目的文件结构和一些重复任务（例如构建 apk 等）的自动化，它还可以更轻松地使用应用。
+- 
+- [ArscEditor](https://github.com/MrIkso/ArscEditor) 带有 GUI 的 resources.arsc 开源编辑器。没用过，不知道具体效果。单纯记录一下。
+- [Recaf](https://github.com/Col-E/Recaf)现代 Java 字节码编辑器。MIT协议。
+- [Threadtear](https://github.com/GraxCode/threadtear) 是一款多功能的 Java 反混淆工具。
+- [APKiD](https://github.com/rednaga/APKiD)提供有关 APK 制作方式的信息。它可以识别许多编译器、打包程序、混淆器和其他奇怪的东西。它是Android 版PEiD 。安卓应用程序识别器，用于识别加壳程序、保护程序、混淆程序和异常程序 - PEiD for Android
+- [simplify](https://github.com/CalebFenton/simplify)  Android虚拟机和反混淆器
+- [jd-gui](https://github.com/java-decompiler/jd-gui)    独立的图形实用程序，可显示“.class”文件的 Java 源代码。您可以使用 JD-GUI 浏览重建的源代码，以便即时访问方法和字段。
+- [jd-core](https://github.com/java-decompiler/jd-core)关于:JD-Core是一个用JAVA编写的JAVA反编译器。
+- [procyon](https://github.com/mstrobel/procyon)Procyon 是一套 Java 元编程工具，包括丰富的反射 API、用于运行时代码生成的 LINQ 启发的表达式树 API 和 Java 反编译器。
+- [GDA-android-reversing-Tool](https://github.com/charles2gan/GDA-android-reversing-Tool)  最快、最强大的 APK、DEX、ODEX、OAT、JAR、AAR 和 CLASS 文件的 Android 反编译器（无需 Java VM 即可运行的本机工具）。支持恶意行为检测、隐私泄露检测、漏洞检测、路径解析、加壳器识别、变量跟踪、反混淆、python 和 java 脚本、设备内存扩展……
+- [LLM4Decompile](https://github.com/albertan017/LLM4Decompile)  逆向工程：使用大型语言模型反编译二进制代码
+- [frida-dexdump](https://github.com/hluwa/frida-dexdump)  frida-dexdump是一个frida工具，用于在内存中查找和转储dex，以支持安全工程师分析恶意软件。
+- [anti-emulator](https://github.com/strazzere/anti-emulator)  Android 反模拟器  ,没研究，不知道是啥，看着很秀就先收藏了...)
+
+- [cfr](https://github.com/leibnitz27/cfr)-----另一个 Java 反编译器 \o/
+- [fernflower](https://github.com/fesh0r/fernflower) FernFlower Java 反编译器的非官方镜像(Java 分析反编译器)
+- [uber-apk-signer](https://github.com/patrickfav/uber-apk-signer) 一个 CLI 工具，可帮助使用调试或提供的发布证书对单个或多个 Android 应用程序包 (APK) 进行签名和压缩对齐。它支持 v1、v2 和 v3 v4 Android 签名方案，具有嵌入式调试密钥库，并在签名后自动验证。
+- [APK-Explorer-Editor](https://github.com/apk-editor/APK-Explorer-Editor)APK Explorer & Editor (AEE) 的源代码，一个用于探索已安装 APK 内容的开源工具！
+- [kstools](https://github.com/fourbrother/kstools)Android中自动爆破签名工具
+- [ghidra](https://github.com/NationalSecurityAgency/ghidra)Ghidra 软件逆向工程框架
+- [radare2](https://github.com/radareorg/radare2) 类似 UNIX 的逆向工程框架和命令行工具集
+- [TweakMe](https://github.com/liaoguobao/TweakMe) android免root native层与java层注入框架
+- [APKEditor](https://github.com/REAndroid/APKEditor),强大的 android apk 编辑器 - aapt/aapt2 独立——————该工具使用[ARSCLib](https://github.com/REAndroid/ARSCLib)编辑任意apk资源，有六大主要功能
+- [ARSCLib](https://github.com/REAndroid/ARSCLib)  Android 二进制资源读取/写入 java 库————该库基于 androidfw/ResourceTypes.h 的 AOSP 结构开发，完全替代 aapt/aapt2
+- [sandhook-docs](https://github.com/AlienwareHe/sandhook-docs) 了解 sandhook 的工作原理.Android ART 钩子\原生内联钩子
+- [xHook](https://github.com/githubXiaowangzi/xHook)———————— [xHook](https://github.com/iqiyi/xHook) 是一个针对 Android 原生 ELF（可执行和共享库）的 PLT（Procedure Linkage Table）钩子库。
+- [android-arscblamer](https://github.com/google/android-arscblamer) 解析 Android 应用程序的 resources.arsc 文件并提取有关其内容的有用、可操作的信息。
+- [LSPlant](https://github.com/LSPosed/LSPlant) LSPlant 是一个 Android ART 钩子库，提供 Java 方法钩子/解除钩子和内联去优化。该项目是 GNU 宽通用公共许可证下的 LSPosed 框架的一部分。
+- [dex-editor](https://github.com/aNNiMON/dex-editor) dex编辑器...
+- [dex2jar](https://github.com/pxb1988/dex2jar)  处理 android .dex 和 java .class 文件的工具
+dex-reader/writer：读取/写入 Dalvik 可执行文件 (.dex)。它具有与 ASM 类似的轻量级 API。
+d2j-dex2jar：将 .dex 文件转换为 .class 文件（压缩为 jar）
+smali/baksmali：将 dex 反汇编为 smali 文件并从 smali 文件组装 dex。与smali/baksmali的实现不同，语法相同，但我们支持类型 desc“Lcom/dex2jar\t\u1234;”中的转义。
+其他工具： d2j-decrypt-string
+
+- [DeveloperHelper](https://github.com/WrBug/DeveloperHelper) 📌易开发是一款帮助开发人员快速开发的工具，功能包括界面分析，页面信息，加固脱壳，支持Android9.0.目前软件尚未完成，更多功能完善中
+
+
+
+
+
 
 
 # 3、app保护
@@ -67,7 +166,24 @@ todo:至于compose版本，我还没找到可用的...
 - 资源混淆- [AndResGuard](https://github.com/shwenzhang/AndResGuard):微信团队为 Android 提供的 proguard 资源.类似于ProGuardJava源代码，但只针对资源文件。
 - java、kotlin混淆-[dProtect](https://github.com/open-obfuscator/dProtect): dProtect 是一款基于 Proguard 的 Java 和 Kotlin 混淆器。特点是支持 kotlin ————相当于 Proguard 的kotlin 兼容版？
 - Java混淆：[ProGuard](https://github.com/Guardsquare/proguard)：，Java 优化器和混淆器
+- llvm4混淆器：[obfuscator](https://github.com/obfuscator-llvm/obfuscator)
 - 字符串加密：[StringFog](https://github.com/MegatronKing/StringFog):一款自动对字节码中的字符串进行加密Android插件工具
+- [dexguard](https://github.com/Ivonhoe/dexguard)Android app防dex2jar的gradle插件——————美团如何预防dex2jar————issue：无语然并卵。。。。jadx-gui一览无余 #5
+- [genuine](https://github.com/brevent/genuine)一个模块反Xposed钩子，反假签名，反虚拟应用程序（binder代理），以及可选的反odex，反覆盖。自 2019-03 起，Genuine 已转为使用纯 c 来隐藏自身。如果您想隐藏包名称和/或类名称，请联系我，或者像fill_XXX在 中一样进行操作genuine.c。
+- [dcc](https://github.com/amimo/dcc)DCC（Dex-to-C Compiler）是一种基于方法的aot编译器，可以将DEX代码转换为C代码。
+- [FreeReflection](https://github.com/tiann/FreeReflection) 一个让你在 Android P （包括 Q 和 R）以上不受任何限制地使用反射的库
+- [Dobby](https://github.com/jmpews/Dobby) 一个轻量级、多平台、多架构的钩子框架。Dobby 是一个轻量级、多平台、多架构的漏洞挂钩框架。
+- [obfuscator](https://github.com/heroims/obfuscator) ollvm混淆器，基于 llvm-clang 5.0.2, 6.0.1 , 7.0.1,8.0,9.0,9.0.1,10.x,11.x,12.x,13.x,14.x,swift-llvm-clang 5.0,swift-llvm-clang 5.5
+- zip对齐的纯Java工具 [zipalign-java](https://github.com/iyxan23/zipalign-java)
+- [Obfuscapk](https://github.com/ClaudiuGeorgiu/Obfuscapk)一种用于 Android 应用程序的自动混淆工具，采用黑盒方式工作，支持高级混淆功能，并具有可通过新技术轻松扩展的模块化架构.一个模块化 Python 工具，用于对 Android 应用进行混淆处理，无需源代码
+- [paranoid](https://github.com/MichaelRocks/paranoid)  Android 应用程序的字符串混淆器。
+- []() 
+- []() 
+- []() 
+- []() 
+- []() 
+- []() 
+- []() 
 
 
 # 4、Flutter
@@ -77,7 +193,28 @@ todo:至于compose版本，我还没找到可用的...
 - 
 
 # 其他
+- 一个安卓UI总结库，比我总结的多得多了(虽然经典但大多都是view)：[awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
+- 《安卓逆向这档事》视频系列————正己吾爱教程.... [AndroidReverse](https://github.com/ZJ595/AndroidReverse)
+- [kotlin-in-chinese](https://github.com/huanglizhuo/kotlin-in-chinese)kotlin 官方文档翻译
 - 谷歌官方- [ksp](https://github.com/google/ksp)，一般用在安卓grade里面的Kotlin 符号处理 API
+- Android 单元测试框架 [robolectric](https://github.com/robolectric/robolectric):  Android 的行业标准单元测试框架。借助 Robolectric，您的测试可以在 JVM 内的模拟 Android 环境中运行，而无需担心模拟器的开销和不稳定问题。Robolectric 测试的运行速度通常比冷启动模拟器上的测试快 10 倍。
+Robolectric 支持为14 个不同版本的 Android运行单元测试，范围从 Lollipop（API 级别 21）到 U（API 级别 34）。
 - 屏幕截图测试-[roborazzi](https://github.com/takahirom/roborazzi)：我关注他的原因是在 [nowinandroid](https://github.com/android/nowinandroid) 里面用。
 - 编程工具的增量解析系统，[tree-sitter](https://github.com/tree-sitter/tree-sitter),Tree-sitter 是一个解析器生成器工具和增量解析库。它可以为源文件构建具体的语法树，并在编辑源文件时高效地更新语法树
-- 
+- KIMI AI 免费 服务 [kimi-free-api](https://github.com/LLM-Red-Team/kimi-free-api)
+-  [slf4j](https://github.com/qos-ch/slf4j)  Java 的简单日志外观 (SLF4J) 作为各种日志框架 (例如 java.util.logging、logback、reload4j、log4j 2.x、logevents、penna、rainbowgum、tinylog) 的简单外观或抽象，允许最终用户在部署时插入所需的日志框架。
+
+- 小米开源的内核源码-[Xiaomi_Kernel_OpenSource](https://github.com/MiCode/Xiaomi_Kernel_OpenSource)
+- NotePad++ 开源 [notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
+
+- [simpleC](https://github.com/luoyesiqiu/simpleC) 安卓平台 C、C++ 编程工具
+- [XQCEditor](https://github.com/wangchen11/XQCEditor) 安卓平台 C、C++ 编程工具
+
+
+
+
+
+
+
+
+
