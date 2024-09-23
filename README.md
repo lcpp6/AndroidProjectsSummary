@@ -15,6 +15,11 @@
 todo:至于compose版本，我还没找到可用的...
 - compose代码编辑器【已经不能用】[compose-code-editor](https://github.com/n34t0/compose-code-editor): 但是可以参考，其中一部分引用了 [androidx](https://github.com/androidx/androidx) 库的源码，很久很更新了（再加上compose库更新太快了），所以很多函数都废弃了，导致可能代码都跑不了了。但是如果你要开发一款compose代码编辑器，可以参考学习。
 - view的代码编辑器-[EditorKit](https://github.com/massivemadness/EditorKit)，可以参考（如果你使用View的话），它用在这个项目里面 [Squircle-CE](https://github.com/massivemadness/Squircle-CE)——————一个比较成熟的代码编辑器、文件浏览..
+- 判断app是什么技术开发的-[apkanalyser](https://github.com/sugood/apkanalyser)通过对apk包的解析，查看使用的开发框架，如：Flutter, ReactNative, Weex
+- 身份验证器-[andOTP](https://github.com/andOTP/andOTP)[未维护] Android 的开源双因素身份验证.基于时间的一次性密码 (TOTP) 和基于 HMAC 的一次性密码 (HOTP)。
+- view应用————身份验证器OTP[freeotp-android](https://github.com/freeotp/freeotp-android)————FreeOTP是一款双因素身份验证应用程序，适用于使用一次性密码协议的系统。只需扫描二维码即可轻松添加令牌。HOTP（基于 HMAC 的一次性密码算法）、TOTP（基于时间的一次性密码算法）。你也可以看它的改进版本：[FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus)
+- View-安卓app开发IDE手机端[AndroidIDE](https://github.com/AndroidIDEOfficial/AndroidIDE) 是一个用于开发全功能 Android 应用程序的 Android IDE。
+- 
 
 - 
 ## 1.3 辅助工具包（util）
@@ -25,8 +30,11 @@ todo:至于compose版本，我还没找到可用的...
 - 工具类-[android-common](https://github.com/litesuits/android-common)：比较老的工具类了，可以学习参考。其中包括bitmap处理，文件操作，加密存储器，shell命令，静默安装，计数器，均值器，吐司，日志，校验，提示，网络监测等基础功能，以及一些Base64、MD5、Hex、Byte、Number、Dialog、Filed、Class、Package、Telephone、Random等工具类。
 - 文件系统级别的库-[okio](https://github.com/square/okio),适用于 Android、Java 和 Kotlin Multiplatform 的现代 I/O 库。没深入使用过，浅浅使用了一下，感觉还行。优势是kotlin、并且低版本使用 Java.io,高版本使用Java.nio。。。
 - 网络存储-[dav4jvm](https://github.com/bitfireAT/dav4jvm):WebDAV/CalDAV/CardDAV 库————Java 虚拟机 (Java/Kotlin) 的 WebDAV（包括 CalDAV、CardDAV）库
+- 网络存储-[sshj](https://github.com/hierynomus/sshj) ：java 的 ssh、scp 和 sftp
+- 
 - 扫码二维码-[ZXingLite](https://github.com/jenly1314/ZXingLite):ZXing的精简极速版，优化扫码和生成二维码/条形码，内置闪光灯等功能。扫描风格支持：微信的线条样式，支付宝的网格样式。几句代码轻松拥有扫码功能 ，ZXingLite让集成更简单。（扫码识别速度快如微信）
 - AndroidSVG-[androidsvg](https://github.com/BigBadaboom/androidsvg)适用于 Android 的 SVG 渲染库——————没用过，不清楚
+- [material-color-utilities](https://github.com/material-foundation/material-color-utilities)Material You 的颜色库，你可以在里面找到一些常用的颜色工具，进行颜色方面的工具开发....
 - 
 
 ## 1.4 compose组件
@@ -35,6 +43,8 @@ todo:至于compose版本，我还没找到可用的...
 -  可滑动列表项-[compose-swipeBox](https://github.com/KevinnZou/compose-swipeBox)：通过 anchoredDraggable 实现的 Jetpack Compose 可滑动列表项（具有定向滑动操作）
 -  一些常用组件 [ComposeViews](https://github.com/ltttttttttttt/ComposeViews)：在 Android、Web、桌面和 iOS 中编写多平台视图：寻呼机、横幅、指示器、刷新布局、流程布局、菜单浮动操作按钮、下拉刷新、链式滚动组件、可滚动应用栏（嵌套滚动视图）、日期选择器（时间选择器日期选择器）、滑动关闭、图像查看器、缩放布局、星形栏等
 - 树形组件-[bonsai](https://github.com/adrielcafe/bonsai)：包含电池的 Jetpack Compose 树形视图
+- 拖动排序-[Reorderable](https://github.com/Calvin-LL/Reorderable)： 通过拖放操作重新排序 Jetpack Compose 和 Compose Multiplatform 中列表和网格中的项目。体验过，但是当时我试了到我的手机上有一些bug就没再用，有时间可以研究一下
+- 
 
 - 
 ## 1.5 compose多平台（跨端）
@@ -62,6 +72,8 @@ todo:至于compose版本，我还没找到可用的...
 
 # 4、Flutter
 - 树视图-[animated_tree_view](https://github.com/embraceitmobile/animated_tree_view),效果看起来不错，但是我已经不碰 Flutter 了，我希望 compose 取代 Flutter！：）
+- Flutter的终端模拟器-[xterm.dart](https://github.com/TerminalStudio/xterm.dart)
+- Flutter 状态管理框架 [getx](https://github.com/jonataslaw/getx)，我还是挺推荐的，虽然已经不打算做Flutter了...
 - 
 
 # 其他
