@@ -97,7 +97,13 @@ todo:至于compose版本，我还没找到可用的...
 -  可滑动列表项-[compose-swipeBox](https://github.com/KevinnZou/compose-swipeBox)：通过 anchoredDraggable 实现的 Jetpack Compose 可滑动列表项（具有定向滑动操作）
 -  一些常用组件 [ComposeViews](https://github.com/ltttttttttttt/ComposeViews)：在 Android、Web、桌面和 iOS 中编写多平台视图：寻呼机、横幅、指示器、刷新布局、流程布局、菜单浮动操作按钮、下拉刷新、链式滚动组件、可滚动应用栏（嵌套滚动视图）、日期选择器（时间选择器日期选择器）、滑动关闭、图像查看器、缩放布局、星形栏等
 - 树形组件-[bonsai](https://github.com/adrielcafe/bonsai)：包含电池的 Jetpack Compose 树形视图
-- 拖动排序-[Reorderable](https://github.com/Calvin-LL/Reorderable)： 通过拖放操作重新排序 Jetpack Compose 和 Compose Multiplatform 中列表和网格中的项目。体验过，但是当时我试了到我的手机上有一些bug就没再用，有时间可以研究一下
+- 拖动排序-[Reorderable](https://github.com/Calvin-LL/Reorderable)： 通过拖放操作重新排序 Jetpack Compose 和 Compose Multiplatform 中列表和网格中的项目。体验过，但是当时我试了到我的手机上有一些bug就没再用，有时间可以研究一下，以下是我当时的使用报告：在测试 LazyList 之类的高级Api，会出现以下问题：
+    1、按下拖动的时候目标块消失。怀疑是zIndex的问题，但是尝试修改该属性无效。
+        怀疑是 新版的 LazyItem 的Scop 和普通（以及以前的）布局不一样，所以zIndex在其中作用失效
+        也就是新的Lazy的Item域的布局方式可能以及不支持 提供zIndex 来控制绘图顺序。
+
+    2、但是使用 ReorderableColumn 不会出现此问题（也就是普通的布局不会出现这种绘图顺序错乱的情况）
+  
 - [compose-markdown](https://github.com/jeziellago/compose-markdown)适用于 Android Jetpack Compose 的 Markdown 文本 📋。
 - compose官方示例集 [compose-samples](https://github.com/android/compose-samples)
 
