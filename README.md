@@ -22,7 +22,7 @@ todo:至于compose版本，我还没找到可用的...
 - [freeotp-android](https://github.com/freeotp/freeotp-android)————【view】FreeOTP是一款双因素身份验证应用程序，适用于使用一次性密码协议的系统。只需扫描二维码即可轻松添加令牌。HOTP（基于 HMAC 的一次性密码算法）、TOTP（基于时间的一次性密码算法）。你也可以看它的改进版本：[FreeOTPPlus](https://github.com/helloworld1/FreeOTPPlus)
 - [AndroidIDE](https://github.com/AndroidIDEOfficial/AndroidIDE) ，【View】，安卓app开发IDE手机端。是一个用于开发全功能 Android 应用程序的 Android IDE。
 - [gkd](https://github.com/gkd-kit/gkd) ，【View】基于无障碍，高级选择器，订阅规则的自定义屏幕点击 Android 应用
-- [MaterialFiles](https://github.com/zhanghai/MaterialFiles)：【View】一款开源的文件管理器，虽然我不再碰View了，但是有些东西还是值得参考的...尤其是开发文件管理器...
+- [MaterialFiles](https://github.com/zhanghai/MaterialFiles)：【View】一款开源的文件管理器，虽然是View，但是有些东西还是值得参考的...尤其是开发文件管理器...
 - [AmazeFileManager](https://github.com/TeamAmaze/AmazeFileManager)，【View】，文件管理器，Android 的 Material Design 文件管理器
 - [Elf-Editor](https://github.com/ha1vk/Elf-Editor) 简单的十六进制编辑器，算是老项目了...一个安卓/java算法用于编辑elf、so文件的符号名和字符串常量池，目前修改，字符串和符号名长度必须和原来一样，本算法修复hash段。现在将其开放，希望各界人士能继续完善，破除字符串修改的长度限制，这个比较麻烦。本工具对于修改二进制文件非常有用
 - [storage-samples](https://github.com/android/storage-samples/tree/main) 安卓官方的存储示例程序：了解 Android 中的存储（在存储中保存文件、键值数据、共享简单数据、共享文件、打印文件、内容提供商、存储访问框架 [SAF] 等），对于开发文件管理器会有启发作用...
@@ -184,7 +184,7 @@ smali/baksmali：将 dex 反汇编为 smali 文件并从 smali 文件组装 dex�
 - 
 
 # 4、Flutter（x）
-- [animated_tree_view](https://github.com/embraceitmobile/animated_tree_view) ，树视图-,效果看起来不错，但是我已经不碰 Flutter 了，我希望 compose 取代 Flutter！：）
+- [animated_tree_view](https://github.com/embraceitmobile/animated_tree_view) ，树视图-,效果看起来不错，但是我已经不 Flutter 了，我希望 compose 取代 Flutter！：）
 - Flutter的终端模拟器-[xterm.dart](https://github.com/TerminalStudio/xterm.dart)
 - Flutter 状态管理框架 [getx](https://github.com/jonataslaw/getx)，我还是挺推荐的，虽然已经不打算做Flutter了...
 - Flutter 应用逆向...[reflutter](https://github.com/Impact-I/reFlutter)
