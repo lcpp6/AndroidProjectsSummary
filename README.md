@@ -3,7 +3,7 @@
 
 # 1、app开发
 ## 1.1 app 开发模板级项目
-- [nowinandroid](https://github.com/android/nowinandroid): 【compose】官方积极维护、纯kotlin+compose，搭建好了基础功能。适合当学习资料或者项目启动模板（实测最新不稳定版本可能存在问题，issues已提但...）,建议使用稳定版
+- [nowinandroid](https://github.com/android/nowinandroid): [nowinandroid(koin版本)](https://github.com/InsertKoinIO/nowinandroid)【compose】官方积极维护、纯kotlin+compose，搭建好了基础功能。适合当学习资料或者项目启动模板（实测最新不稳定版本可能存在问题，issues已提但...）,建议使用稳定版
 - [android-multi-module-demo](https://github.com/JefferyBoy/android-multi-module-demo): 【view】android安卓模块化开发最佳实践demo,其实算是老项目了（View类），可以稍微参考学习，但我更推荐上面那个（如果你想学compose的话）。
 - [media-samples](https://github.com/android/media-samples)，【安卓官方媒体示例】如果尝试做媒体类安卓应用，可以参考一下...
 - [MaterialPopupMenu](https://github.com/zawadz88/MaterialPopupMenu) ，【View】 显示按部分分组的 Material 弹出菜单等,特点是分组。
